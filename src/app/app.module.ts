@@ -6,6 +6,7 @@ import { HelloComponent } from './hello/hello.component';
 import { MessageBoardComponent } from './message-board/message-board.component';
 import { FormsModule } from '@angular/forms';
 import { TodoListModule } from './todo-list/todo-list.module';
+import { MyRouteModule } from './my-route/my-route.module';
 
 @NgModule({
   declarations: [
@@ -14,9 +15,11 @@ import { TodoListModule } from './todo-list/todo-list.module';
     MessageBoardComponent
   ],
   imports: [
-    BrowserModule,
+
+  BrowserModule,
     FormsModule,
-    TodoListModule
+    TodoListModule,
+    MyRouteModule
   ],
   providers: [],
   bootstrap: [AppComponent]
