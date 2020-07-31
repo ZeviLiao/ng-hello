@@ -6,7 +6,7 @@ import { HelloComponent } from './hello/hello.component';
 import { MessageBoardComponent } from './message-board/message-board.component';
 import { FormsModule } from '@angular/forms';
 import { TodoListModule } from './todo-list/todo-list.module';
-import { MyRouteModule } from './my-route/my-route.module';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +19,7 @@ import { MyRouteModule } from './my-route/my-route.module';
   BrowserModule,
     FormsModule,
     TodoListModule,
-    MyRouteModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
