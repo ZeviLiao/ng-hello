@@ -1,9 +1,10 @@
 <h1>ng</h1>
-<!-- <app-hello></app-hello> -->
-<!-- <app-message-board></app-message-board> -->
-<!-- <app-todo-list></app-todo-list> -->
-<ul>
-  <li><a [routerLink]="'/home'">Home</a></li>
-  <li><a [routerLink]="'/about'">About</a></li>
-</ul>
-<router-outlet></router-outlet>
+
+<app-todo-list></app-todo-list>
+<app-hello></app-hello>
+
+<!-- 
+ng g module hello -m app
+ng g component hello -m hello
+exports: [HelloComponent]
+ -->

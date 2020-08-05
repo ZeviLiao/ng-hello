@@ -2,28 +2,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello/hello.component';
-import { MessageBoardComponent } from './message-board/message-board.component';
 import { FormsModule } from '@angular/forms';
 import { TodoListModule } from './todo-list/todo-list.module';
-import { AppRoutingModule } from './app-routing.module';
-import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
+import { HelloModule } from './hello/hello.module';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    HelloComponent,
-    MessageBoardComponent,
-    HomeComponent,
-    AboutComponent
   ],
   imports: [
-
-  BrowserModule,
+    BrowserModule,
     FormsModule,
     TodoListModule,
-    AppRoutingModule,
+    HelloModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
